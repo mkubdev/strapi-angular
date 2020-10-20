@@ -1,0 +1,14 @@
+
+<section class="page-section bg-light" id="portfolio">
+  <div *ngIf="page" class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">{{page.Name}}</h2>
+            <h3 class="section-subheading text-muted">How to build a simple blog in 10min with Strapi</h3>
+        </div>
+        <h4>{{page.content.Title}}</h4>
+        <div>{{page.content.Value}}</div>
+        <br/>
+      <app-post></app-post>
+  </div>
+</section>
+<router-outlet></router-outlet>
