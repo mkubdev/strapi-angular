@@ -1,5 +1,11 @@
 # How to fast build Web Application with Strapi + Angular
 
+☣ [TESTING PURPOSE ONLY] 
+
+This repo is a demo to test Strapi + Angular
+
+## Quick intro
+
 For us, developers, starting a new web project can be a tedious job. It raises questions like:
 
 1. What technology should I use for the front-end?
